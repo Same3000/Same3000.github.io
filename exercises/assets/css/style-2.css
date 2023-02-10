@@ -3,7 +3,7 @@
 *, *::before, *::after { box-sizing: border-box }
 html { height: 100%; font-size: 100%; font: inherit; vertical-align: baseline;
 scroll-behavior: smooth; scroll-padding-top: 20px }
-body { max-width: 1600px; line-height: 1.5; margin-left: auto; margin-right: auto; 
+body { line-height: 1.5; margin-left: auto; margin-right: auto; 
 min-height: 100vh; text-rendering: optimizeSpeed }  
 img { width: 100%; height: auto; display: block }
 h1, h2, h3, h4 { width: 100% }
@@ -3081,10 +3081,21 @@ h2.heading-underline::after {
     /* Col 3 under H2 bottom border */
     .col-1 h2.heading-underline + h3 { margin-top: 42px }
 }
+/*Desktop*/
+@media (min-width: 1025px) {
+    .col-2:not(.text-center) > h2.heading-underline { margin: 0 0 12px 0 }
+    .col-2.text-center > h2.heading-underline { margin: 0 auto 12px auto }
+    .col-2:not(.text-center) > h2.heading-underline::after { margin: 24px 0 60px 0 }
+    .col-2.text-center > h2.heading-underline::after { margin: 24px auto 60px auto }
+    /* Col 3 under H2 bottom border */
+    .col-2 h2.heading-underline + h3 { margin-top: 42px }
+}
 
-@media (min-width: 768px) { section {padding: 4% 20%}}
+@media (min-width: 1025px) { section {padding: 5% 4%}}
 
-@media (max-width: 767px) { section {padding: 12% 8%}}
+@media (min-width: 768px) and (max-width: 1025px) { section {padding: 5% 6%}}
+
+@media (max-width: 767px) { section {padding: 32px 9% 42px 9%}}
 
 body { 
     background-color: whitesmoke; 
