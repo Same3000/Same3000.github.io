@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Add custom style here  */
 #hero-1 header.theme-dark { background-color: var(--blue-700) }
 
@@ -282,3 +283,23 @@
     font-weight: 400;
     line-height: 1.4;
 }
+=======
+header.theme-dark { background-color: var(--blue-700) }
+#hero-3, #hero-4, #hero-5, #hero-6, #hero-7, #hero-8 { margin-top: 80px }
+#hero-1.theme-dark { background-color: var(--blue-700) }
+
+#hero-2.theme-dark { background-color: white }
+h2.text-shadow {font-size: 16px}
+
+#hero-2 .container-btn a.btn:nth-child(2):link,
+#hero-2 .container-btn a.btn:nth-child(2):visited { background-color: var(--green-400) }
+
+#hero-2 .container-btn a.btn:nth-child(2):link,
+#hero-2 .container-btn a.btn:nth-child(2):visited { border-color: var(--green-400) }
+
+#hero-2 .container-btn a.btn:nth-child(1):link,
+#hero-2 .container-btn a.btn:nth-child(1):visited { background-color: var(--green-400) }
+
+#hero-2 .container-btn a.btn:nth-child(1):link,
+#hero-2 .container-btn a.btn:nth-child(1):visited { border-color: var(--green-400) }
+>>>>>>> 5a92996b650b24a5e34d28131934323b924d5766

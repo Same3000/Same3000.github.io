@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 div .div-1
 {
     display: block;
@@ -7,4 +8,15 @@ div .div-1
 {
     display: flex;
     position: absolute;
+=======
+div .div-1
+{
+    display: block;
+    position: relative;
+}
+div .div-1
+{
+    display: flex;
+    position: absolute;
+>>>>>>> 5a92996b650b24a5e34d28131934323b924d5766
 }
